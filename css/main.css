@@ -2,14 +2,14 @@
 
 @import url(layout/normalize.css);
 @import url(layout/base.css);
-@import url(/css/blocks/main-content.css);
-@import url(/css/blocks/hero.css);
-@import url(/css/blocks/title-moved.css);
-@import url(/css/blocks/header.css);
-@import url(/css/blocks/expanded.css);
-@import url(/css/blocks/progress.css);
-@import url(/css/blocks/awesome-blog.css);
-@import url(/css/blocks/toggle-button.css);
-@import url(/css/blocks/bx-wrapper.css);
-@import url(/css/blocks/footer.css);
-@import url(/css/blocks/socials.css);
+@import url(blocks/main-content.css);
+@import url(blocks/hero.css);
+@import url(blocks/title-moved.css);
+@import url(blocks/header.css);
+@import url(blocks/expanded.css);
+@import url(blocks/progress.css);
+@import url(blocks/awesome-blog.css);
+@import url(blocks/toggle-button.css);
+@import url(blocks/bx-wrapper.css);
+@import url(blocks/footer.css);
+@import url(blocks/socials.css);
