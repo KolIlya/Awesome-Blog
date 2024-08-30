@@ -1,0 +1,16 @@
+.expanded {
+    will-change: width;
+    width: 28rem;
+    transition: width 0.3s ease;
+}
+@media (max-width: 745px) {
+    .expanded {
+        background-color: #D3DCE7;
+    }
+}
+
+@media (max-width: 431px) {
+    .expanded {
+        background-color: #D3DCE7;
+    }
+}

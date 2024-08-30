@@ -1,0 +1,55 @@
+.toggle-button {
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 6rem;
+    top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0 2rem 2rem 0;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.toggle-button.expanded {
+    background-color: transparent;
+    transform: rotate(180deg);
+    transition: all 0.4s ease;
+    left: 24rem;
+}
+
+@media (max-width: 745px) {
+    .toggle-button {
+        opacity: 1;
+        width: 3rem;
+        height: 3rem;
+        top: 1.25rem;
+        left: 5rem;
+    }
+
+    .toggle-button img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 431px) {
+    .toggle-button {
+        transform: rotate(90deg);
+        left: 22rem;
+    }
+
+    .toggle-button.expanded {
+        transform: rotate(270deg);
+        left: 22rem;
+    }
+
+    .toggle-button img {
+        width: 3rem;
+        height: 3rem;
+    }
+}

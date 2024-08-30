@@ -1,0 +1,54 @@
+.bx-wrapper {
+    width: 100%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    top: 29%;
+    margin-top: -1rem;
+}
+
+.bx-wrapper .bx-prev {
+    left: 1.5rem;
+    background: url(/image/ArrowLeft.svg) no-repeat;
+}
+
+.bx-wrapper .bx-next {
+    right: 1rem;
+    background: url(/image/ArrowRight.svg) no-repeat;
+}
+
+.bx-wrapper .bx-next:focus, .bx-wrapper .bx-next:hover {
+    background-position: 0 0;
+}
+
+.bx-viewport {
+    height: auto !important;
+}
+
+@media (max-width: 745px) {
+    .bx-wrapper .bx-prev {
+        background-size: 3rem 3rem;
+    }
+
+    .bx-wrapper .bx-next {
+        background-size: 3rem 3rem;
+    }
+
+    .bx-wrapper .bx-controls-direction a {
+        top: 27%;
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 431px) { 
+    .bx-wrapper .bx-controls-direction a {
+        top: 24%;
+    }
+}

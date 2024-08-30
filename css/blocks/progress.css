@@ -1,0 +1,28 @@
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0.25rem;
+    width: 100%;
+    background-color: #D9D9D9;
+    z-index: 10;
+}
+
+.progress-filled {
+    height: 100%;
+    width: 0%;
+    background-color: #FFA0A0;
+    transition: width 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .progress-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 431px) {
+    .progress-bar {
+        display: none;
+    }
+}

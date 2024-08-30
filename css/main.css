@@ -1,4 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto&family=Space+Grotesk:wght@300..700&family=Rhodium+Libre&family=Abril+Fatface&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import url(layout/normalize.css);
 @import url(layout/base.css);
+@import url(/css/blocks/main-content.css);
+@import url(/css/blocks/hero.css);
+@import url(/css/blocks/title-moved.css);
+@import url(/css/blocks/header.css);
+@import url(/css/blocks/expanded.css);
+@import url(/css/blocks/progress.css);
+@import url(/css/blocks/awesome-blog.css);
+@import url(/css/blocks/toggle-button.css);
+@import url(/css/blocks/bx-wrapper.css);
+@import url(/css/blocks/footer.css);
+@import url(/css/blocks/socials.css);

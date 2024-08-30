@@ -7,10 +7,262 @@
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
     <link rel="manifest" href="image/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Awesome Blog</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="main-content">
+            <div class="section hero__section">
+                <div class="container hero__container">
+                    <header class="header" id="header">
+                        <div class="header-top">
+                            <a href="#" class="awesome-blog__logo">AW</a>
+                            <h1 class="awesome-blog__title">AWESOME BLOG</h1>
+                        </div>
+                        <button id="toggleButton" class="toggle-button">
+                            <img src="/image/ExpandBtn.svg" alt="Expand Button" width="40" height="49">
+                        </button>
+                        <nav class="header-navigation">
+                            <ul class="header-navigation__list">
+                                <li class="header-navigation__item">
+                                    <a href="#" class="header-navigation__icon">☲</a>
+                                    <a href="#" class="header-navigation__link">☲ Домой</a>
+                                </li>
+                                <li class="header-navigation__item">
+                                    <a href="#" class="header-navigation__icon">☳</a>
+                                    <a href="#" class="header-navigation__link">☳ Все статьи</a>
+                                </li>
+                                <li class="header-navigation__item">
+                                    <a href="#" class="header-navigation__icon">☵</a>
+                                    <a href="#" class="header-navigation__link">☵ О нас</a>
+                                </li>
+                                <li class="header-navigation__item">
+                                    <a href="#" class="header-navigation__icon">☷</a>
+                                    <a href="#" class="header-navigation__link">☷ Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-content">
+                            <h3 class="header-content__title">Архитектура Ле Корбюзье</h3>
+                            <ul class="header-content__list">
+                                <li class="header-content__item">
+                                    <a href="#section1" class="header-content__link">
+                                        <span class="header-content__number">1</span>
+                                        Вилла Ла Рош
+                                    </a>
+                                </li>
+                                <li class="header-content__item">
+                                    <a href="#section2" class="header-content__link">
+                                        <span class="header-content__number">2</span>
+                                        Вилла Савой
+                                    </a>
+                                </li>
+                                <li class="header-content__item">
+                                    <a href="#section3" class="header-content__link">
+                                        <span class="header-content__number">3</span>
+                                        Жилой комплекс в Берлине
+                                    </a>
+                                    <a href="#paragraph1" class="header-content__link">
+                                        <span class="header-content__number header-content__number--less">3.1</span>
+                                        Первый параграф
+                                    </a>
+                                    <a href="#paragraph2" class="header-content__link">
+                                        <span class="header-content__number header-content__number--less">3.2</span>
+                                        Второй параграф
+                                    </a>
+                                    <a href="#paragraph3" class="header-content__link">
+                                        <span class="header-content__number header-content__number--less">3.3</span>
+                                        Третий параграф
+                                    </a>
+                                </li>
+                                <li class="header-content__item">
+                                    <a href="#section4" class="header-content__link">
+                                        <span class="header-content__number">4</span>
+                                        Дворец Ассамблей
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-filled"></div>
+                        </div>
+                    </header>
+                     <div class="hero-content">
+                         <div class="hero-title__section">
+                             <h1 class="hero-main__title">Архитектура Ле Корбюзье</h1>
+                         </div>
+                         <figure class="hero__image--wrapper">
+                             <img src="image/Laroche.png" alt="Изображение" class="hero__image">
+                             <figcaption class="hero__image-text">
+                                 <h2 class="hero__image-title">Вилла Ла Рош</h2>
+                                 <p class="hero__image-description">В настоящее время вилла работает как музей и выставочное пространство для Фонда Ле Корбюзье.</p>
+                             </figcaption>
+                         </figure>
+                         <ul class="hero-paragraph__list">
+                            <li class="hero-paragraph__item" id="section1">
+                                <h2 class="hero-paragraph__title" >Вилла Ла Рош</h2>
+                                <p class="hero-paragraph__text">Дом представляет собой два отдельных изолированных помещения и состоит из жилой резиденции брата архитектора и художественной галереи коллекционера Рауля Ла Роша, страстно увлеченного искусством кубизма. В настоящее время вилла работает как музей и выставочное пространство для Фонда Ле Корбюзье. В вилле Ла Рош Ле Корбюзье впервые воплощает свои революционные замыслы. Позднее он назовёт их «пятью отправными точками архитектуры»: столбы-пилоты, плоская крыша, которая может служить садом и террасой, интерьеры с открытой планировкой, ленточные окна и фасад, независимый от несущей конструкции. Проект по праву считается первым по-настоящему модернистским домом с его необычными геометрическими формами, минималистской эстетикой и приглушенной цветовой палитрой.</p>
+                            </li>
+                            <li class="hero-paragraph__item" id="section2">
+                                <h2 class="hero-paragraph__title" >Вилла Савой</h2>
+                                <p class="hero-paragraph__text">В окруженном лесами пригороде Парижа находится вилла Савой, спроектированная Ле Корбюзье и его двоюродным братом Пьером Жаннере как семейный загородный дом. Этот проект — яркий пример архитектурного новаторства мастера и воплощение пяти принципов новой архитектуры Ле Корбюзье, окончательно сформулированных им в 1927 году. Здание стоит на столбах, поддерживающих вес строения, поднятого над уровнем земли. Ле Корбюзье оставляет конструкцию свободной от внутренних опорных стен и избавляет фасад от несущей функции. Архитектор стремится «растворить» дом в окружающей природе с помощью широких ленточных окон, сплошного остекления, зеленоватых тонких колонн первого этажа и плоской крыши-террасы.</p>
+                            </li>
+                            <li class="hero-paragraph__item" id="section3">
+                                <h2 class="hero-paragraph__title" >Жилой комплекс в Берлине</h2>
+                                <p class="hero-paragraph__text" id="paragraph1">
+                                Из-за масштабных бомбардировок Берлин переживал крупный жилищный кризис после Второй мировой войны. В качестве решения проблемы архитектор разработал проект многоэтажного социального жилья, состоящего из 530 квартир. Бетонное здание, напоминающее океанский лайнер, стало символом послевоенной модернизации Германии и ярким примером «машины для жизни» Ле Корбюзье. Концепция "жилой единицы" была впервые успешно реализована в Марселе. Берлинский жилой комплекс является почти точной копией Марсельской жилой единицы, признанной самым значимым примером брутализма всех времен. Корбюзье стремился создать «город в городе», который бы отвечал повседневным человеческим потребностям.</p>
+                                <p class="hero-paragraph__text" id="paragraph2">
+                                Из-за масштабных бомбардировок Берлин переживал крупный жилищный кризис после Второй мировой войны. В качестве решения проблемы архитектор разработал проект многоэтажного социального жилья, состоящего из 530 квартир. Бетонное здание, напоминающее океанский лайнер, стало символом послевоенной модернизации Германии и ярким примером «машины для жизни» Ле Корбюзье. Концепция "жилой единицы" была впервые успешно реализована в Марселе. Берлинский жилой комплекс является почти точной копией Марсельской жилой единицы, признанной самым значимым примером брутализма всех времен. Корбюзье стремился создать «город в городе», который бы отвечал повседневным человеческим потребностям.</p>
+                                <p class="hero-paragraph__text" id="paragraph3">
+                                Из-за масштабных бомбардировок Берлин переживал крупный жилищный кризис после Второй мировой войны. В качестве решения проблемы архитектор разработал проект многоэтажного социального жилья, состоящего из 530 квартир. Бетонное здание, напоминающее океанский лайнер, стало символом послевоенной модернизации Германии и ярким примером «машины для жизни» Ле Корбюзье. Концепция "жилой единицы" была впервые успешно реализована в Марселе. Берлинский жилой комплекс является почти точной копией Марсельской жилой единицы, признанной самым значимым примером брутализма всех времен. Корбюзье стремился создать «город в городе», который бы отвечал повседневным человеческим потребностям.</p>
+                            </li>
+                            <li class="hero-paragraph__item" id="section4">
+                                <h2 class="hero-paragraph__title">Дворец Ассамблей</h2>
+                                <p class="hero-paragraph__text">Монументальный восьмиэтажный Дворец Ассамблей является частью Капитолия — правительственного комплекса, расположенного на севере Индии у подножия Гималаев. Здесь Ле Корбюзье впервые воплотил в жизнь некоторые из своих идей об идеальном городе. Техника необработанного бетона, использовавшаяся при строительстве Капитолия, стала отправной точкой брутализма. Главный вход оформлен портиком в форме изогнутой ладьи, поддерживаемой восемью бетонными пилонами. Ядро здания — зал заседаний, расположенный во внутренней цилиндрической конструкции, пробивающий потолок подобно огромному дымоходу. Яркие контрастные элементы фасадов оживляют тяжеловесную композицию..</p>
+                            </li>
+                            <li class="hero-paragraph__item">
+                                <h2 class="hero-paragraph__title">Ещё статьи</h2>
+                                <ul class="hero-slide__list slider">
+                                    <li class="hero-slide__item">
+                                        <figure class="hero-slide__image--wrapper">
+                                            <img src="/image/Villa_Savoye-2.png" alt="Картинка слайда" class="hero-slide__image">
+                                        </figure>
+                                        <h2 class="hero-paragraph__title">Вилла Савой</h2>
+                                        <p class="hero-paragraph__text" id="paragraph1">
+                                        В окруженном лесами пригороде Парижа находится вилла Савой, спроектированная Ле Корбюзье и его двоюродным братом Пьером Жаннере как семейный загородный дом. Этот проект — яркий пример архитектурного новаторства мастера и воплощение пяти принципов новой архитектуры Ле Корбюзье, окончательно сформулированных им в 1927 году.</p>
+                                    </li>
+                                    <li class="hero-slide__item">
+                                        <figure class="hero-slide__image--wrapper">
+                                            <img src="/image/le-corbusier-berlin.png" alt="Картинка слайда" class="hero-slide__image">
+                                        </figure>
+                                        <h2 class="hero-paragraph__title">Жилой комплекс в Берлине</h2>
+                                        <p class="hero-paragraph__text" id="paragraph1">
+                                        Из-за масштабных бомбардировок Берлин переживал крупный жилищный кризис после Второй мировой войны. В качестве решения проблемы архитектор разработал проект многоэтажного социального жилья, состоящего из 530 квартир. Бетонное здание, напоминающее океанский лайнер, стало символом послевоенной модернизации Германии и ярким примером «машины для жизни» Ле Корбюзье. </p>
+                                    </li>
+                                    <li class="hero-slide__item">
+                                        <figure class="hero-slide__image--wrapper">
+                                            <img src="/image/assembleia_exterior_agua_2best.png" alt="Картинка слайда" class="hero-slide__image">
+                                        </figure>
+                                        <h2 class="hero-paragraph__title">Дворец Ассамблей</h2>
+                                        <p class="hero-paragraph__text" id="paragraph1">
+                                        Монументальный восьмиэтажный Дворец Ассамблей является частью Капитолия — правительственного комплекса, расположенного на севере Индии у подножия Гималаев. Здесь Ле Корбюзье впервые воплотил в жизнь некоторые из своих идей об идеальном городе. Техника необработанного бетона, использовавшаяся при строительстве Капитолия.</p>
+                                    </li>
+                                    <li class="hero-slide__item">
+                                        <figure class="hero-slide__image--wrapper">
+                                            <img src="/image/maison-de-culture-a-firminy-loire-le-corbusier-1.png" alt="Картинка слайда" class="hero-slide__image">
+                                        </figure>
+                                        <h2 class="hero-paragraph__title">Дом культуры Фирмини</h2>
+                                        <p class="hero-paragraph__text" id="paragraph1">
+                                        Дом культуры, завершенный в год смерти Ле Корбюзье, построен на крутом обрыве бывшего каменноугольного карьера. Архитектор решил сохранить старый угольные пласт, добившись тем самым «поэтического резонанса» между промышленными и природными материалами, симбиоза здания с окружающей средой. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                         </ul>
+                     </div>
+                </div>
+            </div>
+            <div class="section footer__section">
+                <div class="container footer__container">
+                    <footer class="footer">
+                        <div class="footer__main-content">
+                            <div class="footer__brand-content">
+                                <div class="footer__title-section">
+                                    <a href="#" class="awesome-blog__logo">AW</a>
+                                    <h1 class="awesome-blog__title awesome-blog__title-visible">AWESOME BLOG</h1>
+                                </div>
+                                <p class="footer__side-text">Our vision is to provide convenience and help increase your sales business.</p>
+                                <ul class="socials__list">
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__link">
+                                            <img src="/image/facebook.svg" alt="" class="socials__img">
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__link">
+                                            <img src="/image/twitter.svg" alt="" class="socials__img">
+                                        </a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a href="#" class="socials__link">
+                                            <img src="/image/Instagram.svg" alt="" class="socials__img">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-navigation">
+                                <div class="footer-navigation__wrapper">
+                                    <h4 class="footer-navigation__title">About</h4>
+                                    <ul class="footer-navigation__list">
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">How it works</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Featured</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Partnership</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Business Relations</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-navigation__wrapper">
+                                    <h4 class="footer-navigation__title">Community</h4>
+                                    <ul class="footer-navigation__list">
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Events</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Blog</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Podcast</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Invite a friend</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-navigation__wrapper">
+                                    <h4 class="footer-navigation__title">Socials</h4>
+                                    <ul class="footer-navigation__list">
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Discord</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Instagram</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Twitter</a>
+                                        </li>
+                                        <li class="footer-navigation__item">
+                                            <a href="#" class="footer-navigation__link">Facebook</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom__content">
+                            <p class="footer__coopyright">©2024 Company Name. All rights reserved</p>
+                            <div class="footer__legal">
+                                <a href="#" class="footer__legal-link">Privacy & Policy</a>
+                                <a href="#" class="footer__legal-link">Terms & Condition</a>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/expand.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/chapter.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>

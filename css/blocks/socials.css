@@ -1,0 +1,38 @@
+
+.socials__list {
+    display: flex;
+    margin-bottom: 7.75rem;
+}
+
+.socials__item {
+    margin-right: 1.25rem;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #1A202C;
+    border: none;
+    box-shadow: none;
+}
+
+@media (max-width: 745px) {
+    .socials__list {
+        padding-right: 8rem;
+    }
+}
+
+@media (max-width: 431px) {
+
+    .socials__list {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+
+}

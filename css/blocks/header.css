@@ -1,0 +1,144 @@
+.header {
+    position: fixed;
+    top: 1.5rem;
+    left: 2%; 
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1rem 1rem;
+    width: 6rem;
+    height: 45rem;
+    background-color: #D3DCE7;
+    border-radius: 1rem;
+    transition: width 0.2s ease;
+    z-index: 20;
+}
+
+.header-top {
+    display: flex;
+}
+
+.header-navigation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.header-navigation__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-navigation__item {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    
+}
+
+.header-navigation__icon {
+    margin-right: 0.5rem;
+}
+
+.header-navigation__link {
+    transition: opacity 0.7s ease, transform 0.5s ease;
+    width: 20rem;
+}
+
+.header:hover .toggle-button {
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+
+.header-content__link.active {
+    text-decoration: underline;
+}
+
+.header-content {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1s ease, visibility 0.2s ease;
+    padding-left: 1rem;
+}
+.header-content.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header-content__title {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header-content__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content__item {
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.header-content__link {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.header-content__number {
+    font-family: 'Rhodium Libre';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    width: 1.37rem;
+    height: 1.37rem;
+    background: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.header-content__number--less {
+    font-size: 0.81rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 745px) {
+    .header {
+        position: absolute;
+        width: 28rem; /* Ширина header */
+        background-color: transparent; /* Цвет фона */
+        padding: 0.75rem 1rem 1rem;
+        left: 3%;
+    }
+
+    .header-content {
+        padding: 0.5rem 0.5rem; /* Внутренние отступы */
+    }
+
+    .header-navigation__icon {
+        display: none;
+    }
+}
+
+@media (max-width: 431px) {
+    .header {
+        position: absolute;
+        width: 25rem; /* Ширина header */
+        background-color: transparent; /* Цвет фона */
+        padding: 0.75rem 0rem 1rem;
+        left: 3%;
+    }
+
+    .header-top {
+        align-items: center;
+    }
+}
